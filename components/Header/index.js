@@ -11,7 +11,14 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
-  const { name, showBlog, showResume } = data;
+  const handleFooterScroll = () => {
+    window.scrollTo({
+      top: document.body.scrollHeight,
+      behavior: "smooth",
+    });
+  };
+
+  const { name, showResume } = data; // Removed showBlog
 
   useEffect(() => {
     setMounted(true);
@@ -39,8 +46,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   >
                     <img
                       className="h-6"
-                      src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"
-                        }`}
+                      src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
                     ></img>
                   </Button>
                 )}
@@ -64,47 +70,25 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               className={`absolute right-0 z-10 w-11/12 p-4 ${theme === "dark" ? "bg-slate-800" : "bg-white"
                 } shadow-md rounded-md`}
             >
-              {!isBlog ? (
-                <div className="grid grid-cols-1">
-                  <Button onClick={handleWorkScroll}>Work</Button>
-                  <Button onClick={handleAboutScroll}>About</Button>
-                  {showBlog && (
-                    <Button onClick={() => router.push("/blog")}>Blog</Button>
-                  )}
-                  {showResume && (
-                    <Button
-                      onClick={() =>
-                        window.open("mailto:hello@abufahimkhanverma.com")
-                      }
-                    >
-                      Resume
-                    </Button>
-                  )}
-
+              <div className="grid grid-cols-1">
+                <Button onClick={handleWorkScroll}>Work</Button>
+                <Button onClick={handleAboutScroll}>About</Button>
+                {showResume && (
                   <Button
-                    onClick={() => window.open("mailto:hello@abufahimkhanverma.com")}
+                    onClick={() =>
+                      window.open("mailto:abufahimkhan1@gmail.com")
+                    }
                   >
-                    Contact
+                    Resume
                   </Button>
-                </div>
-              ) : (
-                <div className="grid grid-cols-1">
-                  <Button onClick={() => router.push("/")} classes="first:ml-1">
-                    Home
-                  </Button>
-                  {showBlog && (
-                    <Button onClick={() => router.push("/blog")}>Blog</Button>
-                  )}
-                  {showResume && (
-                    <Button
-                      onClick={() => router.push("/resume")}
-                      classes="first:ml-1"
-                    >
-                      Resume
-                    </Button>
-                  )}
-                </div>
-              )}
+                )}
+
+                <Button
+                  onClick={() => window.open("mailto:abufahimkhan1@gmail.com")}
+                >
+                  Contact
+                </Button>
+              </div>
             </Popover.Panel>
           </>
         )}
@@ -119,67 +103,32 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
         >
           {name}.
         </h1>
-        {!isBlog ? (
-          <div className="flex">
-            <Button onClick={handleWorkScroll}>Work</Button>
-            <Button onClick={handleAboutScroll}>About</Button>
-            {showBlog && (
-              <Button onClick={() => router.push("/blog")}>Blog</Button>
-            )}
-            {showResume && (
-              <Button
-                onClick={() => router.push("/resume")}
-                classes="first:ml-1"
-              >
-                Resume
-              </Button>
-            )}
-
-            <Button onClick={() => window.open("mailto:hello@abufahimkhanverma.com")}>
-              Contact
+        <div className="flex">
+          <Button onClick={handleWorkScroll}>Work</Button>
+          <Button onClick={handleAboutScroll}>About</Button>
+          {showResume && (
+            <Button
+              onClick={() => router.push("/resume")}
+              classes="first:ml-1"
+            >
+              Resume
             </Button>
-            {mounted && theme && data.darkMode && (
-              <Button
-                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              >
-                <img
-                  className="h-6"
-                  src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
-                ></img>
-              </Button>
-            )}
-          </div>
-        ) : (
-          <div className="flex">
-            <Button onClick={() => router.push("/")}>Home</Button>
-            {showBlog && (
-              <Button onClick={() => router.push("/blog")}>Blog</Button>
-            )}
-            {showResume && (
-              <Button
-                onClick={() => router.push("/resume")}
-                classes="first:ml-1"
-              >
-                Resume
-              </Button>
-            )}
+          )}
 
-            <Button onClick={() => window.open("mailto:abufahimkhan1@gmail.com")}>
-              Contact
+          <Button onClick={handleFooterScroll}>
+            Contact
+          </Button>
+          {mounted && theme && data.darkMode && (
+            <Button
+              onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            >
+              <img
+                className="h-6"
+                src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
+              ></img>
             </Button>
-
-            {mounted && theme && data.darkMode && (
-              <Button
-                onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
-              >
-                <img
-                  className="h-6"
-                  src={`/images/${theme === "dark" ? "moon.svg" : "sun.svg"}`}
-                ></img>
-              </Button>
-            )}
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </>
   );
