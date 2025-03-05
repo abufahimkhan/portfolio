@@ -1,0 +1,195 @@
+{
+    "name": "abufahimkhan",
+    "headerTaglineOne": "Hello 👋",
+    "headerTaglineTwo": "I'm Abu Fahim Khan Shantanu",
+    "headerTaglineThree": "Frontend Developer",
+    "headerTaglineFour": "",
+    "showCursor": true,
+    "showBlog": true,
+    "darkMode": true,
+    "showResume": true,
+    "socials": [
+        {
+            "id": "1",
+            "title": "Github",
+            "link": "https://github.com/abufahimkhan"
+        },
+        {
+            "id": "2",
+            "title": "Gitlab",
+            "link": "https://gitlab.com/abufahimkhan1"
+        },
+        {
+            "id": "3",
+            "title": "LinkedIn",
+            "link": "https://www.linkedin.com/in/abu-fahim-khan/"
+        },
+        {
+            "id": "4",
+            "title": "Facebook",
+            "link": "https://www.facebook.com/shantokhan.shantokhan.3/"
+        },
+        {
+            "id": "5",
+            "title": "Projects",
+            "link": "https://github.com/abufahimkhan"
+        },
+        {
+            "id": "6",
+            "title": "Email",
+            "link": "mailto:abufahimkhanverma@gmail.com"
+        }
+    ],
+    "projects": [
+        {
+            "id": "1",
+            "title": "Journey Creator APP USA",
+            "description": "Design & Development",
+            "imageSrc": "./assets/journey.png",
+            "url": "https://lunakama.magicmind.me/journey-creator-web/"
+        },
+        {
+            "id": "2",
+            "title": "SALESBOTICS.IO",
+            "description": "Front-End Development",
+            "imageSrc": "./assets/sales.png",
+            "url": "https://techwoozy.vercel.app/"
+        },
+        {
+            "id": "2",
+            "title": "Techwoozy",
+            "description": "Front-End Development",
+            "imageSrc": "./assets/techwoozy.png",
+            "url": "https://techwoozy.vercel.app/"
+        },
+        {
+            "id": "3",
+            "title": "Magic Mind Company Website",
+            "description": "Web Development",
+            "imageSrc": "./assets/magic.png",
+            "url": "https://magicmind.me/"
+        },
+        {
+            "id": "4",
+            "title": "Travel Agency",
+            "description": "Design",
+            "imageSrc": "./assets/tripbeyond.png",
+            "url": "https://trip-beyond.vercel.app/"
+        },
+        {
+            "id": "5",
+            "title": "Travel Agency",
+            "description": "Marketing",
+            "imageSrc": "./assets/visatea.png",
+            "url": "https://visatea-blog.vercel.app/"
+        },
+        {
+            "id": "6",
+            "title": "Realtor Website USA",
+            "description": "Development",
+            "imageSrc": "./assets/realtor.png",
+            "url": "https://www.shohidrealtor.com/"
+        },
+        {
+            "id": "7",
+            "title": "Health Care And Service",
+            "description": "Design & Development",
+            "imageSrc": "./assets/healthcare.png",
+            "url": "https://az-llc-eight.vercel.app/"
+        },
+        {
+            "id": "8",
+            "title": "Flight Booking Portal B2B",
+            "description": "Design & Development",
+            "imageSrc": "./assets/b2b.png",
+            "url": "https://flight-bookingb2b.vercel.app/search"
+        }
+    ],
+    "services": [
+        {
+            "id": "1",
+            "title": "Front-End Development",
+            "description": "I specialize in building dynamic, user-friendly interfaces that ensure a seamless user experience. My front-end development services focus on creating responsive, high-performance websites and web applications using the latest technologies like React.js, Next.js, and Tailwind CSS. We prioritize intuitive design and accessibility, ensuring your users have a flawless experience across all devices and browsers."
+        },
+        {
+            "id": "2",
+            "title": "JavaScript Development",
+            "description": "As a JavaScript developer, I specialize in creating dynamic and interactive web applications. From handling complex state management in React to building seamless client-side interactions with pure JavaScript, my focus is on delivering efficient, scalable, and maintainable solutions. Whether it's ES6 features, APIs, or asynchronous programming, we harness the full power of JavaScript to craft smooth, high-performance web experiences."
+        },
+        {
+            "id": "3",
+            "title": "CSS Frameworks",
+            "description": "In the mobile-first era, we create responsive, feature-rich mobile applications using frameworks like React Native. Whether you're looking for an app that works seamlessly on both Android and iOS, or a solution tailored to a specific platform, we focus on delivering intuitive, fast, and reliable mobile experiences. Our approach integrates best practices in UI/UX design, performance optimization, and code reusability, ensuring your app stands out in the market.\n\n"
+        },
+        {
+            "id": "4",
+            "title": "Mobile Development",
+            "description": "In the mobile-first era, we create responsive, feature-rich mobile applications using frameworks like React Native. Whether you're looking for an app that works seamlessly on both Android and iOS, or a solution tailored to a specific platform, we focus on delivering intuitive, fast, and reliable mobile experiences. My approach integrates best practices in UI/UX design, performance optimization, and code reusability, ensuring your app stands out in the market.\n"
+        }
+    ],
+    "contact": {
+        "fullName": "Abu Fahim Khan Shantanu",
+        "email": "abufahimkhan1@gmail.com",
+        "address": "OLIZA BHUIYAN HOUSE 147/C LIFT 3 WEST MONIPUR MIRPUR 2 PS MIRPUR, DHAKA",
+        "city": "Dhaka",
+        "postalCode": "1216",
+        "country": "Bangladesh",
+        "phone": "+880 1704606893"
+    },
+    "aboutpara": "👋 Greetings!\n\nI am Abu Fahim Khan Shantanu, a devoted and enthusiastic software developer. My expertise lies in crafting dynamic and user-centric web applications, formidable mobile apps, and resilient backend solutions. As an aspiring professional, my dedication to perpetual learning drives me to deliver results of the utmost quality, precisely tailored to your distinct requirements.\n\nI am fervently committed to staying at the forefront of technology, consistently incorporating innovations to create solutions that push the boundaries of convention. In my collaborative approach, I engage closely with clients, endeavoring to comprehend their unique needs and providing solutions customized to their specifications.\n\nMy commitment extends beyond mere functionality; I am dedicated to upholding code quality through the implementation of best practices and adherence to industry standards. Together, let's embark on a journey of innovation and collaborative development.\n\nHere's to building something extraordinary together!",
+    "resume": {
+        "tagline": "👋  I'm a software engineer, front-end developer.",
+        "description": "As a Front-End Web Developer, I possess a versatile skill set and a\nproactive mindset. My adaptability and eagerness to learn enable\nme to quickly grasp new concepts and technologies, allowing me\nto excel in any project. I am committed to continuous learning,\nstaying abreast of industry trends, and integrating new tools into\nmy repertoire to enhance project outcomes. I approach\nchallenges with determination and seek opportunities for\ninnovation in every endeavor.",
+        "experiences": [
+            {
+                "id": "1",
+                "dates": "Januray-2025-present",
+                "type": "Remote",
+                "position": "Magic Mind",
+                "bullets": "Working as a front-end developer, Remote space working with team"
+            },
+            {
+                "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+                "dates": "January 2024 - January-2025",
+                "type": "Hybrid",
+                "position": "Bytenyx Limited",
+                "bullets": " Cutting-edge web applications, integrating APIs, Front-end development"
+            },
+            {
+                "id": "cd75709a-8d6e-46b1-af14-0b0008d1a621",
+                "dates": "January 2023 - December 2024",
+                "type": "Full Time",
+                "position": "Techwoozy LLC",
+                "bullets": "Worked on a project manager, Front-end development"
+            }
+        ],
+        "education": {
+            "universityName": "East West University",
+            "universityDate": "2019-2023",
+            "universityPara": " Aftabnagar Dhaka-1212, Bangladesh Bachelor of Science in Computer Science & Engineering."
+        },
+        "languages": [
+            "Javascript",
+            "HTML5",
+            "CSS",
+            "Python",
+            "Go",
+            "C",
+            "C++",
+            "Java"
+        ],
+        "frameworks": [
+            "React",
+            "Typescript",
+            "NodeJs",
+            "Tailwind CSS ",
+            "Ui-Libraries and Frameworks",
+            "NextJs",
+            "Svelte",
+            "Tip Tap js"
+        ],
+        "others": [
+            "A highly skilled Frontend Developer with expertise in JavaScript,C.C++,Java & Go and modern UI frameworks. Works in a hybrid remote setup, collaborating effectively with teams to build responsive, high-performance web applications. Passionate about clean code, user experience, and scalable design solutions."
+        ]
+    }
+}
