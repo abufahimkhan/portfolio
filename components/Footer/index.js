@@ -26,11 +26,8 @@ const Footer = () => {
           <div className="mt-10 text-xl laptop:text-2xl">
             <p><strong>Full Name:</strong> Abu Fahim Khan Shantanu</p>
             <p><strong>Email:</strong> <a href="mailto:abufahimkhan1@gmail.com" className="text-blue-500 underline">abufahimkhan1@gmail.com</a></p>
-            <p><strong>Address:</strong> OLIZA BHUIYAN HOUSE 147/C LIFT 3 WEST MONIPUR MIRPUR 2 PS MIRPUR, DHAKA</p>
             <p><strong>City/Town:</strong> DHAKA</p>
-            <p><strong>Postal Code:</strong> 1216</p>
             <p><strong>Country:</strong> Bangladesh</p>
-            <p><strong>Phone:</strong> <a href="tel:+8801704606893" className="text-blue-500 underline">+880 1704606893</a></p>
           </div>
         </div>
       </div>
